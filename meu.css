@@ -1,0 +1,95 @@
+:root{
+--Dark-cyan: hsl(158, 36%, 37%);
+--Cream: hsl(30, 38%, 92%);
+
+--Very-dark-blue: hsl(212, 21%, 14%);
+--Dark-grayish-blue: hsl(228, 12%, 48%);
+--White: hsl(0, 0%, 100%);
+}
+
+
+.container{
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;    margin-top: 100px;
+    height: 600px;
+    width: 790px;
+    border-radius: 10px;
+}
+
+img{
+    width: 400px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.ttm{
+    text-align: right;
+    transform: translateY(-600px);
+    margin-right: 250px;
+    font-size: 25px;
+    font-family: Montserrat;
+}
+
+.ttmenor{
+    text-align: right;
+    transform: translateY(-560px );
+    margin-right: 80px;
+    font-family: Fraunces;
+    font-size: 24px;
+}
+
+.parag{
+    transform: translateY(-465px );
+    margin-left: 410px;
+    font-family: Montserrat;
+    font-size: 17px;
+}
+
+.preco{
+    text-align: center;
+    transform: translateY(-410px );
+    margin-left: 110px;
+}
+
+.velho-p{
+    font-size: 14px;
+    color: #999;
+    text-decoration: line-through;
+    transform: translateY(-470px);
+    margin-left: 480px;
+}
+
+@font-face{
+    font-family: Montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: Fraunces;
+    src: url(Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+button {
+    display: block;
+    width: 350px;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transform: translateY(-430px);
+    margin-left: 420px;
+}
+
+.button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
